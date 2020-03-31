@@ -1,0 +1,87 @@
+{
+  "allowHttpBackend": false,
+  "backendCommand": "",
+  "backendFolderName": "",
+  "certificateExceptions": [],
+  "extensionViews": [
+    {
+      "id": "1",
+      "label": "",
+      "channelId": "73728530",
+      "configurationAnchor": "panel",
+      "displayChannelName": "bonesaw__mcgraw",
+      "type": "panel",
+      "features": {
+        "isBitsEnabled": false,
+        "isChatEnabled": false,
+        "isSubscriptionStatusAvailable": false
+      },
+      "linked": false,
+      "linkedUserId": "",
+      "mode": "viewer",
+      "isPopout": true,
+      "role": "Broadcaster",
+      "orientation": "Portrait",
+      "frameSize": {
+        "width": 1280,
+        "height": 720
+      }
+    }
+  ],
+  "manifest": {
+    "anchor": "panel",
+    "assetUrls": [],
+    "authorName": "Bonesaw__McGraw",
+    "bitsEnabled": false,
+    "canInstall": true,
+    "configUrl": "https://localhost:8080/config.html",
+    "configurationLocation": "none",
+    "description": "You shouldn't use this one.",
+    "eulaTosUrl": "",
+    "hasChatSupport": false,
+    "iconUrl": "",
+    "iconUrls": {},
+    "id": "bymec5f5zrcxxwib4cx9svdko8cs4b",
+    "installationCount": -42,
+    "liveConfigUrl": "",
+    "name": "Bonesaw McGraw Info Panel",
+    "panelHeight": 300,
+    "privacyPolicyUrl": "",
+    "requestIdentityLink": false,
+    "requiredBroadcasterAbilities": [],
+    "screenshotUrls": [],
+    "sku": "",
+    "state": "Testing",
+    "subscriptionsSupportLevel": "none",
+    "summary": "Nothing interesting to see here -- just wanted to customize my panel styling.",
+    "supportEmail": "bohsocks@gmail.com",
+    "vendorCode": "",
+    "version": "0.0.1",
+    "viewerSummary": "",
+    "viewerUrl": "https://localhost:8080/panel.html",
+    "viewerUrls": {
+      "mobile": "https://localhost:8080/mobile.html",
+      "panel": "https://localhost:8080/panel.html"
+    },
+    "views": {
+      "mobile": {
+        "viewerUrl": "https://localhost:8080/mobile.html"
+      },
+      "panel": {
+        "viewerUrl": "https://localhost:8080/panel.html",
+        "height": 300,
+        "canLinkExternalContent": false
+      },
+      "config": {
+        "viewerUrl": "https://localhost:8080/config.html",
+        "canLinkExternalContent": false
+      }
+    },
+    "whitelistedConfigUrls": [],
+    "whitelistedPanelUrls": []
+  },
+  "frontendCommand": "",
+  "frontendFolderName": "",
+  "name": "Bonesaw McGraw Info Panel",
+  "version": 1
+}

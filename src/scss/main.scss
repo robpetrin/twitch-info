@@ -1,0 +1,235 @@
+// Imports
+@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand|Teko:300|Stalinist+One&display=swap');
+
+// Variables
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #006699;
+
+// Body
+.bg {
+  font: 100% $font-stack;
+  color: white;
+  font-weight: 900;
+  font-family: 'Teko', sans-serif;
+  background-image: url('../images/pattern.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  text-shadow: 1px 1px #000;
+}
+
+// Heading
+.head-wrapper {
+  height: 22vh;
+}
+h1 {
+  text-align: center;
+  font-family: 'Stalinist One', cursive;
+  font-size: 1em;
+  padding-top: 0.75em;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  text-shadow: -3px 0px purple;
+  transform: scale(1, 5);
+  -webkit-transform: scale(1, 5); /* Safari and Chrome */
+  -moz-transform: scale(1, 5); /* Firefox */
+  -ms-transform: scale(1, 5); /* IE 9+ */
+  -o-transform: scale(1, 5); /* Opera */
+}
+h2 { 
+  text-align: center;
+  font-size: 1.75em;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  padding-top: 1.25em;
+  letter-spacing: 0.25em;
+  font-weight: 900;
+  text-shadow: 1px 1px purple;
+}
+.top-rule {
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+  width: 80%;
+  margin-top: -0.5em;
+}
+
+  // Glowing Text
+  .glow {
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+
+// Main
+  .carousel {
+    height: 78vh;
+    margin: auto;
+    width: 100%;
+    .carousel-item {
+      text-align: center;
+      font-size: 1.75em;
+      text-shadow: 2px 2px purple;
+      letter-spacing: 0.15em;
+    }
+    p {
+      padding-top: 0.125em;
+      padding-bottom: 0.125em;
+      padding-left: 0.75em;
+      text-align: left;
+      font-weight: 300;
+      font-size: 0.75em;
+      letter-spacing: 0;
+      line-height: 1em;
+      text-shadow: 2px 2px purple;
+    }
+    .carousel-control-prev { 
+      padding-right: 1.5em;
+      padding-top: 20em;
+    }
+    .carousel-control-next { 
+      padding-left: 1.5em;
+      padding-top: 20em;
+    }
+  }
+
+  .row { 
+    img {
+      height: 2em;
+      width: auto;
+    }
+  }
+
+  .small {
+    line-height: 0.5em;
+    a { 
+      color: cyan;
+    }
+  }
+  #iowa { 
+    height: 2.5em;
+  }
+
+  #un {
+    color: white;
+    font-size: 0.8em;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-align: center;
+    transform: scale(1, 1.25);
+    text-shadow: -2px 3px black;
+  }
+
+img:hover {
+  transform: scale(1.5);
+  border:0;
+  z-index: 10;
+}
+
+.macho {
+  border: 1px solid white;
+  margin-bottom: 0.5em;
+}
+
+.often {
+    font-size: 0.75em;
+  }
+
+.tooltip {
+    font-size: 0.75em;
+    font-color: cyan;
+  }
+
+.always-row { 
+    text-align: center;
+    min-height: 100px;
+    img {
+      width: 110px;
+      height: 50px;
+      margin-top: 0.5em;
+      border: 1px white solid;
+    }
+  }
+
+.sometimes-row { 
+    text-align: center;
+    min-height: 100px;
+    img {
+      width: 75px;
+      height: 35px;
+      margin: 0.15em;
+      border: 1px white solid;
+    }
+  }
+
+.rule {
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+  width: 80%;
+}
+
+.gear-wrapper {
+  position: absolute;
+  display: none;
+  bottom: 0;
+  right: 50px;
+  opacity: 0.25;
+  font-size: 1em;
+  i {
+    color: yellow;
+  }
+}
+.gear-wrapper:hover {
+  opacity: 1;
+}
+
+// Frame View
+  .frame-box {
+    margin: 2em 0;
+    text-align: center;
+    iframe {
+      width: 320px;
+      height: 500px;
+      margin: auto 1em;
+      border: 1px violet solid;
+    } 
+  }
+  .color { 
+    background-color: gray;
+  }
+
+// Config Page
+.config-text {
+  padding-top: 1em;
+  padding-bottom: 0.125em;
+  padding-left: 0.5em;
+  text-align: left;
+  font-weight: 300;
+  font-size: 1.5em;
+  letter-spacing: 0;
+  line-height: 1em;
+  text-shadow: 2px 2px purple;
+}
+.button {
+  text-align: center;
+  background-color: yellow;
+  color: purple;
+  font-size: 1.25em;
+  margin-top: 1em;
+}
+.button:hover {
+  color: purple;
+  transform: scale(1.25);
+}

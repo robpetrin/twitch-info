@@ -1,0 +1,104 @@
+doctype html
+html
+  head
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title Hello World!
+    link(rel='stylesheet', href='./css/bootstrap.min.css')
+    link(rel="stylesheet", href='./css/main.css')
+  body.bg
+    .head-wrapper
+      h1 Bonesaw McGraw
+      h2.glow Streamy Goodness
+      hr.top-rule
+
+    #bonesawCarousel.carousel.slide(data-ride='carousel', data-interval="false")
+      // List of Slides
+      ol.carousel-indicators
+        li.active(data-target='#bonesawCarousel', data-slide-to='0')
+        li(data-target='#bonesawCarousel', data-slide-to='1')
+        li(data-target='#bonesawCarousel', data-slide-to='2')
+        li(data-target='#bonesawCarousel', data-slide-to='3')
+      .carousel-inner
+        // Slide 1: When I Stream?
+        .carousel-item.active When I Stream
+           p I steam every Tuesday night (7:30p EDT to until about Midnight). I may stream beyond Tuesdays more consistently, but nothing is set in stone. The best way to know when I'm online is to give me a follow!
+           p First and foremost, I'm all about Jackbox Games. It's the only thing I do on Tuesdays. Beyond those, you can find a list of the games I commonly stream on the last slide. I prefer party games and playing with my viewers, so it's what I do most!
+           img(src="images/iowa-112.png")#iowa
+        // Slide 2: Who is Bonesaw?
+        .carousel-item Who is Bonesaw?
+          .container
+            .row
+              .col
+                img(src="images/bonesaw.png")
+              .col
+                img(src="images/apple.png")
+          p Hi I'm Bonesaw! everything you need to know about me can be summed up in these two videos: 
+          .container
+            .row
+              .col
+                a(target="_blank" href="https://www.youtube.com/watch?v=PrlSz-Xxo50")
+                  img.macho(src="https://i3.ytimg.com/vi/PrlSz-Xxo50/hqdefault.jpg")
+              .col
+                a(target="_blank" href="https://www.youtube.com/watch?v=UDSfJaVC0KY")
+                  img.macho(src="https://i3.ytimg.com/vi/UDSfJaVC0KY/hqdefault.jpg")
+          p I'm not active on social media, so the best place to find me is on Twitch! I'm happy to chat it up with my viewers, and have them join in on the Jackbox fun (especially on Tuesdays!)
+        // Slide 3: Rules & Regulations
+        .carousel-item Rules & Regulations
+          p The golden rule here is "don't be a knob." Beyond that, we have a lot of time for crude humor, swears, and other immature fun that comes with playing Jackbox games.
+          p We have no time for negativity, racism, sexism, homophobia, xenophobia, or other lovely things of that nature. Take those elsewhere. We'd rather stream with no one watching (or not stream at all) than babysit immature participants. 
+          p#un If you have questions about what's cool (or what's not), don't hesitate to ask!
+        // Slide 4: What I Usually Stream
+        .carousel-item What I Usually Stream
+          .container
+            .row.always-row
+              .col-6
+                a(target="_blank" href="https://store.steampowered.com/app/434170/The_Jackbox_Party_Pack_3/")
+                  img(src="images/jackbox-3.png")
+              .col-6
+                a(target="_blank" href="https://store.steampowered.com/app/610180/The_Jackbox_Party_Pack_4/")
+                 img(src="images/jackbox-4.png")
+              .col-6
+                a(target="_blank" href="https://store.steampowered.com/app/774461/The_Jackbox_Party_Pack_5/")
+                 img(src="images/jackbox-5.jpeg")
+              .col-6
+                a(target="_blank" href="https://store.steampowered.com/app/1005300/The_Jackbox_Party_Pack_6/")
+                  img(src="images/jackbox-6.jpg")
+            hr.rule
+            span.often What I Sometimes Stream
+            .row.sometimes-row
+              .col-4
+                a(target="_blank" href="https://store.steampowered.com/app/312530/Duck_Game/")
+                 img(src="images/duck-game.jpg" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom")
+              .col-4
+                a(target="_blank" href="https://store.steampowered.com/app/252950/Rocket_League/")
+                 img(src="images/rocket-league.png")
+              .col-4
+                a(target="_blank" href="https://store.steampowered.com/app/976730/Halo_The_Master_Chief_Collection/")
+                  img(src="images/halo.jpg")
+              .col-4
+                a(target="_blank" href="https://store.steampowered.com/app/665330/Wrestling_Revolution_3D/")
+                 img(src="images/wr3d.jpg")
+              .col-4
+                a(target="_blank" href="https://store.steampowered.com/app/286160/Tabletop_Simulator/")
+                 img(src="images/tabletop.jpg")
+              .col-4
+                a(target="_blank" href="https://www.retroarch.com/")
+                  img(src="images/retroarch.png")
+            span#hover
+      // Carousel Controls
+      a.carousel-control-prev(href='#bonesawCarousel', role='button', data-slide='prev')
+        span.carousel-control-prev-icon(aria-hidden='true')
+        span.sr-only Previous
+      a.carousel-control-next(href='#bonesawCarousel', role='button', data-slide='next')
+        span.carousel-control-next-icon(aria-hidden='true')
+        span.sr-only Next
+
+    .gear-wrapper 
+      a(target="_self" href="config.html")
+        i.fas.fa-cog
+
+    // Script Includes -- Twitch, jQ, Popped, Bootstrap
+    script(src='https://extension-files.twitch.tv/helper/v1/twitch-ext.min.js')
+    script(src='./js/jquery-3.4.1.slim.min.js')
+    script(src='./js/popper.min.js')
+    script(src='./js/bootstrap.min.js')
