@@ -4,6 +4,7 @@ html
     meta(name='viewport', content='width=device-width, initial-scale=1')
     title Hello World!
     link(rel='stylesheet', href='./css/bootstrap.min.css')
+    link(rel='stylesheet', href='./css/font-awesome.css')
     link(rel="stylesheet", href='./css/main.css')
   body.bg
     .head-wrapper
@@ -41,7 +42,12 @@ html
               .col
                 a(target="_blank" href="https://www.youtube.com/watch?v=UDSfJaVC0KY")
                   img.macho(src="https://i3.ytimg.com/vi/UDSfJaVC0KY/hqdefault.jpg")
-          p I'm not active on social media, so the best place to find me is on Twitch! I'm happy to chat it up with my viewers, and have them join in on the Jackbox fun (especially on Tuesdays!)
+          p.text-center
+            a(href="https://")
+            button.btn.btn-dark.btn-lg(type='button')#twitter
+              | @bonesaw__mcgraw 
+              i.fab.fa-twitter
+
         // Slide 3: Rules & Regulations
         .carousel-item Rules & Regulations
           p The golden rule here is "don't be a knob." Beyond that, we have a lot of time for crude humor, swears, and other immature fun that comes with playing Jackbox games.
@@ -53,10 +59,10 @@ html
             .row.always-row
               .col-6
                 a(target="_blank" href="https://store.steampowered.com/app/434170/The_Jackbox_Party_Pack_3/")
-                  img(src="images/jackbox-3.png")
+                  img(src="/images/jackbox-3.jpg")
               .col-6
                 a(target="_blank" href="https://store.steampowered.com/app/610180/The_Jackbox_Party_Pack_4/")
-                 img(src="images/jackbox-4.png")
+                 img(src="images/jackbox-4.jpg")
               .col-6
                 a(target="_blank" href="https://store.steampowered.com/app/774461/The_Jackbox_Party_Pack_5/")
                  img(src="images/jackbox-5.jpeg")
@@ -71,7 +77,7 @@ html
                  img(src="images/duck-game.jpg" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom")
               .col-4
                 a(target="_blank" href="https://store.steampowered.com/app/252950/Rocket_League/")
-                 img(src="images/rocket-league.png")
+                 img(src="images/rocket-league.jpg")
               .col-4
                 a(target="_blank" href="https://store.steampowered.com/app/976730/Halo_The_Master_Chief_Collection/")
                   img(src="images/halo.jpg")
@@ -83,7 +89,7 @@ html
                  img(src="images/tabletop.jpg")
               .col-4
                 a(target="_blank" href="https://www.retroarch.com/")
-                  img(src="images/retroarch.png")
+                  img(src="images/retroarch.jpg")
             span#hover
       // Carousel Controls
       a.carousel-control-prev(href='#bonesawCarousel', role='button', data-slide='prev')
@@ -102,3 +108,4 @@ html
     script(src='./js/jquery-3.4.1.slim.min.js')
     script(src='./js/popper.min.js')
     script(src='./js/bootstrap.min.js')
+    script(src='./js/font-awesome.js')

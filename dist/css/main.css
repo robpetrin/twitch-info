@@ -4,7 +4,7 @@
   color: white;
   font-weight: 900;
   font-family: 'Teko', sans-serif;
-  background-image: url("../images/pattern.png");
+  background-image: url("../images/pattern.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -117,6 +117,18 @@ img:hover {
 .macho {
   border: 1px solid white;
   margin-bottom: 0.5em; }
+
+#twitter {
+  background-color: purple;
+  margin-top: 1em;
+  word-spacing: 0.3em; }
+
+#twitter:hover {
+  background-color: white;
+  color: purple; }
+
+.fa-twitter {
+  padding-top: 0.25em; }
 
 .often {
   font-size: 0.75em; }
