@@ -106,7 +106,7 @@ h2 {
 
   .row { 
     img {
-      height: 2em;
+      height: 3em;
       width: auto;
     }
   }
@@ -143,14 +143,16 @@ img:hover {
 }
 
 #twitter {
-  background-color: purple;
+  background-color: #3e2d5e;
   margin-top: 1em;
   word-spacing: 0.3em;
+  font-weight: 900;
+  border: 1px solid #b19cd9;
 }
 
 #twitter:hover {
   background-color: white;
-  color: purple;
+  color: #3e2d5e;
 }
 
 .fa-twitter {
