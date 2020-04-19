@@ -24,7 +24,12 @@ html
         .carousel-item.active When I Stream
            p I steam every Tuesday night (7:30p EDT to until about Midnight). I may stream beyond Tuesdays more consistently, but nothing is set in stone. The best way to know when I'm online is to give me a follow!
            p First and foremost, I'm all about Jackbox Games. It's the only thing I do on Tuesdays. Beyond those, you can find a list of the games I commonly stream on the last slide. I prefer party games and playing with my viewers, so it's what I do most!
-           img(src="images/iowa-112.png")#iowa
+           .container.mt-2
+             .row
+               .col
+                 img(src="images/iowa-112.png")#iowa
+               .col
+                 img(src="images/sup-train.png")#iowa
         // Slide 2: Who is Bonesaw?
         .carousel-item Who is Bonesaw?
           .container.mt-2
@@ -34,11 +39,16 @@ html
               .col
                 img(src="images/apple.png")
           p Hi I'm Bonesaw! I love retro games, Jackbox games, web development, and the Twitch community. However, if you're desperate for more...
-          p.text-center
+          p.text-center.mt-n4
             a(href="https://twitter.com/bonesaw__mcgraw" target="_blank")
               button.btn.btn-dark.btn-lg(type='button')#twitter
-                | @bonesaw__mcgraw 
                 i.fab.fa-twitter
+                | @bonesaw__mcgraw
+            br
+            a(href="https://discord.gg/gMt8PGd" target="_blank")
+              button.btn.btn-dark.btn-lg(type='button')#discord
+                i.fab.fa-discord
+                | Bonesaw__McGraw
 
         // Slide 3: Rules & Regulations
         .carousel-item Rules & Regulations

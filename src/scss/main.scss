@@ -143,20 +143,36 @@ img:hover {
 }
 
 #twitter {
-  background-color: #3e2d5e;
+  width: 10em;
+  background-color: #1DA1F2;
   margin-top: 1em;
   word-spacing: 0.3em;
   font-weight: 900;
-  border: 1px solid #b19cd9;
+  border: 1px solid #14171A;
 }
 
 #twitter:hover {
   background-color: white;
-  color: #3e2d5e;
+  color: #1DA1F2;
 }
 
-.fa-twitter {
+#discord {
+  width: 10em;
+  background-color: #7289DA;
+  margin-top: 1em;
+  word-spacing: 0.3em;
+  font-weight: 900;
+  border: 1px solid #2C2F33;
+}
+
+#discord:hover {
+  background-color: white;
+  color: #7289DA;
+}
+
+.fa-twitter, .fa-discord {
   padding-top: 0.25em;
+  padding-right: 0.25em;
 }
 
 .often {
